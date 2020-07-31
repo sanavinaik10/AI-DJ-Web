@@ -1,0 +1,41 @@
+body{
+    color: white;
+    background-size: cover;
+    font-family: 'Courgette', cursive;
+}
+.span_note{
+    font-size: 15px;
+}
+.heading{
+    width: 100%;
+    margin: 0px;
+}
+#disk_for_speed{
+    margin-left: 10px;
+    width: 150px;
+}
+#div_for_speed{
+    float: left;
+}
+#speed{
+    font-size: 20px;
+}
+#disk_for_volume{
+    margin-left: 10px;
+    width: 150px;
+}
+#div_for_volume{
+    float: right;
+}
+#volume{
+    font-size: 20px;
+}
+#play_button{
+    font-size: 17px;
+}
+#stop_button{
+    font-size: 17px;
+}
+canvas{
+    border: 8px double white;
+}
