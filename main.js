@@ -48,7 +48,7 @@ function draw(){
             document.getElementById("speed").innerHTML = "Speed = 2x";
             song.rate(2); 
         }
-        else{
+        else if(rightWristY > 400 && rightWristY <= 500){
             document.getElementById("speed").innerHTML = "Speed = 2.5x";
             song.rate(2.5); 
         }
